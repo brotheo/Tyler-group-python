@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Python Fun Projects & Applications</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    header h2 {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 1.1rem;
+      color: #bdc3c7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .intro p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .phase {
+      background: #fff;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .phase:hover {
+      transform: translateY(-5px);
+    }
+
+    .phase h2 {
+      color: #2980b9;
+      margin-top: 0;
+    }
+
+    .phase h3 {
+      color: #7f8c8d;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    details.week {
+      padding: 10px 0;
+      border-bottom: 1px solid #ecf0f1;
+      cursor: pointer;
+    }
+
+    details.week:last-child {
+      border-bottom: none;
+    }
+
+    summary {
+      font-weight: 600;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.95rem;
+      color: #888;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.7rem;
+      }
+      .phase {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Python Fun Projects & Applications</h1>
+    <h2>Created by Teacher Theo</h2>
+  </header>
+
+  <div class="container">
+    <div class="intro">
+      <p><strong>Goal:</strong> Reinforce and extend Python knowledge through enjoyable, light projects that feel like real apps, games, or creative tools.</p>
+      <p><strong>Format:</strong> 1.5-hour weekly sessions with creative tasks and hands-on challenges.</p>
+    </div>
+
+    <div class="phase">
+      <h2>🔹 Phase 1: Everyday Python (Weeks 1–6)</h2>
+      <h3>Focus: Build useful and personal tools using simple Python features.</h3>
+      <div class="phase-intro">Learn the basics of Python by making useful mini-apps. Each week introduces a new concept and project.</div>
+      <details class="week"><summary><strong> Week 1:</strong> Calculator with Memory</summary>
+        <ul>
+          <li><strong>Learn:</strong> Input, arithmetic, variables</li>
+          <li><strong>Project:</strong> A calculator that stores the last result</li>
+          <li><strong>Extra:</strong> Let users reuse the last answer</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 2:</strong> Birthday Reminder App</summary>
+        <ul>
+          <li><strong>Learn:</strong> Dictionaries, dates, simple file handling</li>
+          <li><strong>Project:</strong> Let users add, view, and remove birthdays</li>
+          <li><strong>Extra:</strong> Notify if someone’s birthday is today</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 3:</strong> Daily Mood Logger</summary>
+        <ul>
+          <li><strong>Learn:</strong> Lists, writing to a text file</li>
+          <li><strong>Project:</strong> Users log their mood and see mood history</li>
+          <li><strong>Extra:</strong> Display the most frequent mood</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 4:</strong> Coin Toss & Dice Roller Simulator</summary>
+        <ul>
+          <li><strong>Learn:</strong> random, simple loops</li>
+          <li><strong>Project:</strong> Simulate tossing a coin or rolling a dice</li>
+          <li><strong>Extra:</strong> Add animation using time delay</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 5:</strong> Shopping List Maker</summary>
+        <ul>
+          <li><strong>Learn:</strong> Lists, loops</li>
+          <li><strong>Project:</strong> Add, remove, and view shopping items</li>
+          <li><strong>Extra:</strong> Save the list to a text file</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 6:</strong> Basic Flashcard Quiz App</summary>
+        <ul>
+          <li><strong>Learn:</strong> Dictionaries, simple quizzes</li>
+          <li><strong>Project:</strong> Show questions and check answers</li>
+          <li><strong>Extra:</strong> Keep score and give feedback</li>
+        </ul>
+      </details>
+    </div>
+
+    <div class="phase">
+      <h2>🔹 Phase 2: Games & Interactive Fun (Weeks 7–12)</h2>
+      <h3>Focus: Create simple games and visual fun with logic and loops.</h3>
+      <div class="phase-intro">Make games and interactive programs to practice logic, loops, and user input.</div>
+      <details class="week"><summary><strong> Week 7:</strong> Rock, Paper, Scissors</summary>
+        <ul>
+          <li><strong>Learn:</strong> random, if, input</li>
+          <li><strong>Project:</strong> Play against the computer</li>
+          <li><strong>Extra:</strong> Add a score counter</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 8:</strong> Number Guessing Game</summary>
+        <ul>
+          <li><strong>Learn:</strong> while loops, hints, attempts</li>
+          <li><strong>Project:</strong> Guess a number in limited tries</li>
+          <li><strong>Extra:</strong> Add “play again” option</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 9:</strong> Dice Game – Race to 100</summary>
+        <ul>
+          <li><strong>Learn:</strong> loops, user vs computer</li>
+          <li><strong>Project:</strong> Each turn, roll dice to reach 100 first</li>
+          <li><strong>Extra:</strong> Add 2-player mode</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 10:</strong> Drawing with Turtle Graphics</summary>
+        <ul>
+          <li><strong>Learn:</strong> turtle, loops, shapes</li>
+          <li><strong>Project:</strong> Draw shapes and patterns</li>
+          <li><strong>Extra:</strong> Let user choose color and size</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 11:</strong> Simple Typing Speed Test</summary>
+        <ul>
+          <li><strong>Learn:</strong> timing, strings, input</li>
+          <li><strong>Project:</strong> Measure how fast users can type a sentence</li>
+          <li><strong>Extra:</strong> Show words per minute</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 12:</strong> Memory Game (Text Version)</summary>
+        <ul>
+          <li><strong>Learn:</strong> Lists, shuffling, matching pairs</li>
+          <li><strong>Project:</strong> Show hidden words; try to match pairs</li>
+          <li><strong>Extra:</strong> Add a countdown timer</li>
+        </ul>
+      </details>
+    </div>
+
+    <div class="phase">
+      <h2>🔹 Phase 3: Mini Real-World Projects (Weeks 13–18)</h2>
+      <h3>Focus: Fun apps that feel more “real,” like mini tools or creative programs.</h3>
+      <div class="phase-intro">Apply your Python skills to build creative, real-world mini-apps and choose your own final project!</div>
+      <details class="week"><summary><strong> Week 13:</strong> To-Do List App (Simple Version)</summary>
+        <ul>
+          <li><strong>Learn:</strong> Lists, text file storage</li>
+          <li><strong>Project:</strong> Add/remove/view daily tasks</li>
+          <li><strong>Extra:</strong> Mark tasks as “done”</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 14:</strong> Emoji Translator</summary>
+        <ul>
+          <li><strong>Learn:</strong> Dictionaries, string replacement</li>
+          <li><strong>Project:</strong> Convert words into emojis (e.g., smile → 😊)</li>
+          <li><strong>Extra:</strong> Let user add their own emoji codes</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 15:</strong> Compliment Generator</summary>
+        <ul>
+          <li><strong>Learn:</strong> Lists, random, print</li>
+          <li><strong>Project:</strong> Print a new funny compliment each time</li>
+          <li><strong>Extra:</strong> Customize compliments for names</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 16:</strong> Simple Story Maker (Mad Libs)</summary>
+        <ul>
+          <li><strong>Learn:</strong> Input, string formatting</li>
+          <li><strong>Project:</strong> Users fill blanks to create funny stories</li>
+          <li><strong>Extra:</strong> Add multiple story templates</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 17:</strong> Weather Reporter (Fake version)</summary>
+        <ul>
+          <li><strong>Learn:</strong> If/else, user input</li>
+          <li><strong>Project:</strong> User types city, and program gives random weather</li>
+          <li><strong>Extra:</strong> Add temperature range and outfit advice</li>
+        </ul>
+      </details>
+      <details class="week"><summary><strong> Week 18:</strong> Final Fun App - You Choose!</summary>
+        <ul>
+          <li><strong>Students choose one to build from scratch:</strong>
+            <ul>
+              <li>A fun quiz game</li>
+              <li>An emoji diary</li>
+              <li>A joke machine</li>
+              <li>A drawing pattern tool with Turtle</li>
+            </ul>
+          </li>
+          <li><strong>Then, they present their app with:</strong>
+            <ul>
+              <li>What it does</li>
+              <li>How it works</li>
+              <li>What they learned</li>
+            </ul>
+          </li>
+        </ul>
+    /* Improve mobile readability for week details */
+    @media (max-width: 768px) {
+      details.week {
+        padding: 16px 0;
+        font-size: 1.05rem;
+      }
+      details.week ul {
+        padding-left: 18px;
+        font-size: 0.98rem;
+      }
+      summary {
+        font-size: 1.08rem;
+        line-height: 1.5;
+      }
+    }
+      </details>
+    </div>
+  </div>
+
+  <div class="footer">
+    Created  by Teacher Theo — Making Python Learning Fun & Simple!
+  </div>
+
+</body>
+</html>
